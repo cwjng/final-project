@@ -1,0 +1,46 @@
+h2 {
+    display: block;
+    font-size: 50px;
+    text-align: center;
+    margin: 20px;
+    font-family: Helvetica, Arial;
+}
+
+footer {
+    font-size: 18px;
+    font-family: Helvetica, Arial;
+}
+
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: Verdana, Arial;
+    font-weight: bold; 
+}
+
+nav {
+    font-size: 18px;
+    font-family: Helvetica, Arial;
+    display: flex;
+    justify-content: center;
+  }
+  
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+}

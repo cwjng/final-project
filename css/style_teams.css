@@ -1,0 +1,91 @@
+body {
+    background-color:whitesmoke;
+    background-image: url("/imgs/home_bg.jpeg")
+}
+
+h2 {
+    display: block;
+    font-size: 50px;
+    text-align: center;
+    margin: 20px;
+    font-family: Helvetica, Arial;
+}
+
+.grid {
+    padding: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: flex-start;
+    width: auto;
+}
+
+.img-grid {
+    padding: 10px;
+    display: grid;
+    margin: auto;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    column-gap: 10px;
+    width: auto;
+}
+
+.img-grid img {
+    margin: 4px;
+    width: 200px;
+    height: auto;
+    background-color: #ffffff;
+}
+
+.grid ul {
+    padding: 10px;
+    font-size: 40px;
+    margin: auto;
+    width: auto;
+    text-align: center;
+}
+
+.grid li {
+    font-family:'Courier', Arial;
+    margin: 10px;
+}
+
+.yellow {
+    background-color: #ffd733;
+    padding: 10px;
+}
+
+.platinum {
+    background-color: #999999;
+    padding: 10px;
+}
+
+.heartgold {
+    background-color: #b69e00;
+    padding: 10px;
+}
+
+.black {
+    background-color: #444444;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.x {
+    background-color: #6376b8;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.ruby {
+    background-color: #cf3025;
+    color: #ffffff;
+    padding: 10px;
+}
+.moon {
+    background-color: #5599ca;
+    padding: 10px;
+}
+
+@media screen {
+    
+}

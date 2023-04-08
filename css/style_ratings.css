@@ -1,0 +1,23 @@
+.game-cover {
+    height: auto;
+    width: 400px;
+    margin: auto;
+}
+.playing-next {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.switch-game-cover {
+    margin: 5px;
+    width: 400px;
+    height: auto;
+}
+
+p {
+    font-size: 18px;
+    text-align: center;
+}
