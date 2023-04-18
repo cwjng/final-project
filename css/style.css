@@ -1,46 +1,133 @@
+body {
+    background-color: #c5ebeb;
+}
+.skip {
+    position: fixed;
+    background-color: #efefef;
+    padding: 10px;
+    opacity: 0;
+}
+.skip:focus {
+    opacity: 1;
+} 
+p {
+    font-size: 20px;
+    font-family: Verdana, Arial;
+    text-align: center;
+    padding: 10px;
+}
 h2 {
     display: block;
     font-size: 50px;
     text-align: center;
     margin: 20px;
     font-family: Helvetica, Arial;
+    padding: 10px;
 }
-
 footer {
     font-size: 18px;
     font-family: Helvetica, Arial;
 }
-
-
 h1 {
     font-size: 60px;
     text-align: center;
     margin-bottom: 50px;
     font-family: Verdana, Arial;
     font-weight: bold; 
-}
-
-nav {
-    font-size: 18px;
-    font-family: Helvetica, Arial;
-    display: flex;
-    justify-content: center;
-  }
-  
-nav ul {
-    display: flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-nav li {
-    margin: 0 10px;
-}
-
-nav a {
-    display: block;
     padding: 10px;
-    color: #333;
-    text-decoration: none;
+}
+.yellow {
+    background-color: #ffd63395;
+    padding: 10px;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+.platinum {
+    background-color: #9999996e;
+    padding: 10px;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+.heartgold {
+    background-color: #b69e00a3;
+    padding: 10px;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+.black {
+    background-color: #44444490;
+    padding: 10px;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+.x {
+    background-color: #6375b898;
+    padding: 10px;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+.ruby {
+    background-color: #cf3025ab;
+    padding: 10px;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+.moon {
+    background-color: #5599ca9c;
+    padding: 10px;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+@media screen and (min-width: 768px) { 
+   
+    .yellow {
+        width: 90%; 
+        border-radius: 3%;
+        border: 2px solid #ffd633;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .platinum {
+        width: 90%;
+        border-radius: 3%;
+        border: 2px solid #999999;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .heartgold {
+        width: 90%; 
+        border-radius: 3%;
+        border: 2px solid #b69e00;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .black {
+        width: 90%; 
+        border-radius: 3%;
+        border: 2px solid #444444;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .x {
+        width: 90%; 
+        border-radius: 3%;
+        border: 2px solid #6375b8;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .ruby {
+        width: 90%; 
+        border-radius: 3%;
+        border: 2px solid #cf3025;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .moon {
+        width: 90%;
+        border-radius: 3%;
+        border: 2px solid #5599ca9c;
+        margin-left: auto;
+        margin-right: auto;
+    } 
 }

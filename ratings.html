@@ -4,54 +4,101 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/html5reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/style_ratings.css">
-    <title>Rating Pokémon Games</title>
+    <title>Pokémon Fanpage</title>
 </head>
-<body>
-    <a href="#main" class="skip">Skip to Main Content</a>
+    <a href="#main" class="skip">Jump to Content</a>
     <header>
-        <nav>
-            <ul>
-              <!-- link directory to id sections -->
-              <li><a href="index.html">Home</a></li>
-              <li><a href="ratings.html">Ratings</a></li>
-              <li><a href="teams.html">Team Rosters</a></li>
-            </ul>
-          </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link " href="index.html">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link active" href="ratings.html">Ratings</a>
+                <a class="nav-item nav-link" href="teams.html">Team Rosters</a>
+                <a class="nav-item nav-link" href="quiz.html">Quiz</a>
+              </div>
+            </div>
+        </nav>
     </header>
-    <main id="main">
-        <h1>Pokémon Game Ratings</h1>
-        <h2>Pokémon Yellow</h2>>
-        <img class="game-cover" src="./imgs/games/yellow.png" alt="Pokémon Yellow">
-        <p>Pokemon Yellow is a classic game that I played for 26.22 hours. Unfortunately, it falls short of my expectations and remains my least favorite game so far. Despite its charming graphics and iconic Pokemon characters, the game feels overly simplistic and lacks the depth and complexity I seek in a game. The mechanics are basic and the game progression is straightforward, leaving little room for surprises or exploration. Additionally, the story plot is shallow and fails to engage the player in a meaningful way. Overall, while Pokemon Yellow may have been groundbreaking in its time, it fails to hold up to modern gaming standards.</p>
-        <h2>Pokémon Platinum</h2>>
-        <img class="game-cover" src="./imgs/games/platinum.png" alt="Pokémon Platinum">
-        <p>Pokemon Platinum is a captivating game that I played for 136.48 hours. It's my favorite and most played game, as it was the first Pokemon game I played at the age of 5. The pokemon design and side quests were impressive, including the post-game. Although Team Galactic, the antagonist team, was underwhelming in the original Diamond and Pearl, Platinum improved their presence vastly. Overall, Pokemon Platinum is an enjoyable game with lots of content and replayability.</p>
-        <h2>Pokémon HeartGold</h2>>
-        <img class="game-cover" src="./imgs/games/heartgold.jpeg" alt="Pokémon HeartGold">
-        <p>Having spent 111.25 hours playing Pokemon HeartGold, I can say that it was a consistently enjoyable experience. The game's stunning attention to detail in creating beautiful scenery, combined with special features such as the PokeWalker, made it stand out. While the game's antagonist team and plot were forgettable, the opportunity to battle the formidable Pokemon trainer Red at the end was a thrilling highlight that made the journey worthwhile. Overall, Pokemon HeartGold is a fantastic addition to the series that any fan should try.</p>
-        <h2>Pokémon Black</h2>>
-        <img class="game-cover" src="./imgs/games/black.png" alt="Pokémon Black">
-        <p>Pokemon Black, one of my favorite games, provided me with 61.10 hours of enjoyable gameplay. The stunning game designs of every city, character, and pokemon were impressive, and the side minigames were a great addition. What stood out the most was the game's complex and thoughtful plot, which revolved around the intriguing antagonist named N. However, the game's straightforward progression left little room for exploration. Despite this flaw, Pokemon Black is a must-play for anyone who enjoys a well-crafted story and beautiful game design.</p>
-        <h2>Pokémon X</h2>>
-        <img class="game-cover" src="./imgs/games/xy.png" alt="Pokémon X">
-        <p>After playing Pokemon X for 43.22 hours, I found it to be a visually impressive game, especially considering that it was Game Freak's first attempt to create a 3D world for Pokemon. The creativity in designing the Pokemon was also notable. However, the unique game features didn't provide enough incentive to spend more time playing, which was a bit disappointing. Overall, while Pokemon X had its strengths, it wasn't a game that kept me engaged for a significant amount of time.</p>
-        <h2>Pokémon Omega Ruby</h2>>
-        <img class="game-cover" src="./imgs/games/ruby.png" alt="Pokémon Omega Ruby">
-        <p>Pokemon Omega Ruby is a nearly-identical remake of one of the most beloved classic Gameboy games. However, after playing it for 104.17 hours, I found it to be a somewhat disappointing modern game experience. The addition of an automated experience-sharing feature made the game too easy, and the lack of depth in the antagonist team made them more of a nuisance than a challenge. The slow pace of the game only picked up interesting features toward the last quarter, which made it difficult to maintain interest. While the game had potential, it ultimately fell short of my expectations.</p>
-        <h2>Pokémon Moon</h2>>
-        <img class="game-cover" src="./imgs/games/moon.png" alt="Pokémon Moon">
-        <p>After playing Pokemon Moon for 50.75 hours, I found that while it wasn't my favorite game in the franchise, it was still a solid attempt at refreshing the series. The game's most unappealing aspect was the design of the Pokemon themselves, which I found lacked the charm of previous games. However, I appreciated the risks the game took in going against traditional Pokemon games of the past, such as getting rid of Pokemon gyms and replacing them with trials that challenged players in different ways. While these changes were nice to see, they didn't always hit the mark for me. Overall, I think the game deserves recognition for attempting something new, and it was a commendable effort.</p>
-
-        <h2>Playing Next...</h2>
-        <div class="playing-next">
-            <img class="switch-game-cover" src="./imgs/games/bdsp.png" alt="Pokémon Brilliant Diamond">
-            <img class="switch-game-cover" src="./imgs/games/sword.png" alt="Pokémon Sword">
-            <img class="switch-game-cover" src="./imgs/games/arceus.png" alt="Pokémon Legends: Arceus">
-            <img class="switch-game-cover" src="./imgs/games/violet.png" alt="Pokémon Violet">
-        </div>
-    </main>
-</body>
+    <body>
+        <main id="main">
+            <h1>Pokémon Game Ratings</h1>
+            <div class='yellow' tabindex="1">
+                <h2>Pokémon Yellow</h2>
+                <div class="img-grid">
+                    <img class="game-cover" src="./imgs/games/yellow.png" alt="Pokémon Yellow">
+                    <img class="box-pokemon" src="./imgs/box_art/pikachu.png" alt="Pikachu">
+                </div>
+                <p>Pokémon Yellow is a classic game that I played for 26.22 hours. Unfortunately, it falls short of my expectations and remains my least favorite game so far. Despite its charming graphics and iconic Pokémon characters, the game feels overly simplistic and lacks the depth and complexity I seek in a game. The mechanics are basic, and the game progression is straightforward, leaving little room for surprises or exploration. Additionally, the story plot is shallow and fails to engage the player in a meaningful way. Overall, while Pokémon Yellow may have been groundbreaking in its time, it fails to hold up to modern gaming standards.</p>
+            </div>
+            <div class="platinum" tabindex="2">
+                <h2>Pokémon Platinum</h2>
+                <div class="img-grid">
+                    <img class="game-cover" src="./imgs/games/platinum.png" alt="Pokémon Platinum">
+                    <img class="box-pokemon" src="./imgs/box_art/giratina.png" alt="Giratina">
+                </div>
+                <p>Pokémon Platinum is a captivating game that I played for 136.48 hours. It's my favorite and most played game, as it was the first Pokémon game I played at the age of 5. The Pokémon design and side quests were impressive, including the post-game. Although Team Galactic, the antagonist team, was underwhelming in the original Diamond and Pearl, Platinum improved their presence vastly. Overall, Pokémon Platinum is an enjoyable game with lots of content and replayability.</p>
+            </div>
+            <div class="heartgold" tabindex="3">
+                <h2>Pokémon HeartGold</h2>
+                <div class="img-grid">
+                    <img class="game-cover" src="./imgs/games/heartgold.jpeg" alt="Pokémon HeartGold">
+                    <img class="box-pokemon" src="./imgs/box_art/ho_oh.png" alt="Ho-Oh">
+                </div>
+                <p>Having spent 111.25 hours playing Pokémon HeartGold, I can say that it was a consistently enjoyable experience. The game's stunning attention to detail in creating beautiful scenery, combined with special features such as the PokeWalker, made it stand out. While the game's antagonist team and plot were forgettable, the opportunity to battle the formidable Pokémon trainer Red at the end was a thrilling highlight that made the journey worthwhile. Overall, Pokémon HeartGold is a fantastic addition to the series that any fan should try.</p>
+            </div>
+            <div class="black" tabindex="4">
+                <h2>Pokémon Black</h2>
+                <div class="img-grid">
+                    <img class="game-cover" src="./imgs/games/black.png" alt="Pokémon Black">
+                    <img class="box-pokemon" src="./imgs/box_art/reshiram.png" alt="Reshiram">
+                </div>
+                <p>Pokémon Black, one of my favorite games, provided me with 61.10 hours of enjoyable gameplay. The stunning game designs of every city, character, and Pokémon were impressive, and the side minigames were a great addition. What stood out the most was the game's complex and thoughtful plot, which revolved around the intriguing antagonist named N. However, the game's straightforward progression left little room for exploration. Despite this flaw, Pokémon Black is a must-play for anyone who enjoys a well-crafted story and beautiful game design.</p>
+            </div>
+            <div class="x" tabindex="5">
+                <h2>Pokémon X</h2>
+                <div class="img-grid">
+                    <img class="game-cover" src="./imgs/games/xy.png" alt="Pokémon X">
+                    <img class="box-pokemon" src="./imgs/box_art/xerneas.png" alt="Xerneas">
+                </div>
+                <p>After playing Pokémon X for 43.22 hours, I found it to be a visually impressive game, especially considering that it was Game Freak's first attempt to create a 3D world for Pokémon. The creativity in designing the Pokémon was also notable. However, the unique game features didn't provide enough incentive to spend more time playing, which was a bit disappointing. Overall, while Pokémon X had its strengths, it wasn't a game that kept me engaged for a significant amount of time.</p>
+            </div>
+            <div class="ruby" tabindex="6">
+                <h2>Pokémon Omega Ruby</h2>
+                <div class="img-grid">
+                    <img class="game-cover" src="./imgs/games/ruby.png" alt="Pokémon Omega Ruby">
+                    <img class="box-pokemon" src="./imgs/box_art/groudon.png" alt="Groudon">
+                </div>
+                <p>Pokémon Omega Ruby is a nearly-identical remake of one of the most beloved classic Gameboy games. However, after playing it for 104.17 hours, I found it to be a somewhat disappointing modern game experience. The addition of an automated experience-sharing feature made the game too easy, and the lack of depth in the antagonist team made them more of a nuisance than a challenge. The slow pace of the game only picked up interesting features toward the last quarter, which made it difficult to maintain interest. While the game had potential, it ultimately fell short of my expectations.</p>
+            </div>
+            <div class="moon" tabindex="7">
+                <h2>Pokémon Moon</h2>
+                <div class="img-grid">
+                    <img class="game-cover" src="./imgs/games/moon.png" alt="Pokémon Moon">
+                    <img class="box-pokemon" src="./imgs/box_art/lunala.png" alt="Lunala">
+                </div>
+                <p>After playing Pokémon Moon for 50.75 hours, I found that while it wasn't my favorite game in the franchise, it was still a solid attempt at refreshing the series. The game's most unappealing aspect was the design of the Pokémon themselves, which I found lacked the charm of previous games. However, I appreciated the risks the game took in going against traditional Pokémon games of the past, such as getting rid of Pokémon gyms and replacing them with trials that challenged players in different ways. While these changes were nice to see, they didn't always hit the mark for me. Overall, I think the game deserves recognition for attempting something new, and it was a commendable effort.</p>
+            </div>
+            <div class="playing-next" tabindex="8">
+                <h2>Playing Next...</h2>
+                <div class="playing-next-grid">
+                    <img class="switch-game-cover" src="./imgs/games/bdsp.png" alt="Pokémon Brilliant Diamond">
+                    <img class="switch-game-cover" src="./imgs/games/sword.png" alt="Pokémon Sword">
+                    <img class="switch-game-cover" src="./imgs/games/arceus.png" alt="Pokémon Legends: Arceus">
+                    <img class="switch-game-cover" src="./imgs/games/violet.png" alt="Pokémon Violet">
+                </div>
+            </div>
+            <footer>
+                <p>University of Michigan School of Information<br/>
+                &copy; Christina Ng</p>
+            </footer>
+        </main>
+    </body>
 </html>

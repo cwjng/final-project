@@ -1,14 +1,24 @@
 .game-cover {
+    display: block;
     height: auto;
     width: 400px;
     margin: auto;
 }
-.playing-next {
+
+.playing-next-grid {
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+
+.box-pokemon {
+    display: none;
+}
+
+.img-grid {
+    display: block;
 }
 
 .switch-game-cover {
@@ -17,7 +27,18 @@
     height: auto;
 }
 
-p {
-    font-size: 18px;
-    text-align: center;
+.playing-next {
+    background-color: #9750aa9f;
+}
+
+@media screen and (min-width: 1024px) {
+    .box-pokemon {
+        display: block;
+        height: auto;
+        width: 400px;
+        margin-right: auto;
+    }
+    .img-grid {
+        display: flex;
+    }
 }

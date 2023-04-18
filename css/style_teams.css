@@ -1,11 +1,7 @@
-body {
-    background-color:whitesmoke;
-    background-image: url("/imgs/home_bg.jpeg")
-}
-
 h2 {
     display: block;
     font-size: 50px;
+    font-weight: bold;
     text-align: center;
     margin: 20px;
     font-family: Helvetica, Arial;
@@ -42,6 +38,7 @@ h2 {
     margin: auto;
     width: auto;
     text-align: center;
+    
 }
 
 .grid li {
@@ -49,43 +46,67 @@ h2 {
     margin: 10px;
 }
 
-.yellow {
-    background-color: #ffd733;
-    padding: 10px;
+@media screen and (min-width: 768px) {
+    .grid {
+        padding: 10px;
+        display: grid;
+        justify-content: center;
+        align-items: flex-start;
+        width: auto;
+    }
+
+    .img-grid {
+        padding: 10px;
+        display: grid;
+        margin: auto;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+        column-gap: 10px;
+        width: auto;
+    }
+
+    .img-grid img {
+        margin: 4px;
+        width: 200px;
+        height: auto;
+        background-color: #ffffff;
+    }
+
+    .grid ul {
+        padding: 10px;
+        font-size: 40px;
+        margin: auto;
+        width: auto;
+        text-align: center;
+    }
 }
 
-.platinum {
-    background-color: #999999;
-    padding: 10px;
+@media screen and (min-width: 1024px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        align-items: flex-start;
+      }
+      
+      .img-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+        column-gap: 10px;
+      }
+      
+      .img-grid img {
+        margin: 4px;
+        width: 200px;
+        height: auto;
+        background-color: #ffffff;
+      }
+      
+      .grid ul {
+        padding: 10px;
+        font-size: 40px;
+        text-align: center;
+      }      
 }
-
-.heartgold {
-    background-color: #b69e00;
-    padding: 10px;
-}
-
-.black {
-    background-color: #444444;
-    padding: 10px;
-    color: #ffffff;
-}
-
-.x {
-    background-color: #6376b8;
-    color: #ffffff;
-    padding: 10px;
-}
-
-.ruby {
-    background-color: #cf3025;
-    color: #ffffff;
-    padding: 10px;
-}
-.moon {
-    background-color: #5599ca;
-    padding: 10px;
-}
-
-@media screen {
-    
-}
+  
